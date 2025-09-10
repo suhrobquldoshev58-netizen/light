@@ -1,8 +1,52 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
-body{
-  width: 1728px;
-height: 1169px;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 
-opacity: 1px;
+}
 
+.head {
+  display: flex;
+  margin-top: 57px;
+
+
+  
+}
+.der{
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 60px;
+}
+a{
+  color: black;
+
+}
+
+.mine{
+  display: flex;
+  gap: 40px;
+}
+.fa{
+  background-color: green;
+  border-radius: 14px;
+  color: white;
+  padding: 13px ;
+  display: flex;
+  gap: 15px;
+  padding-right:150px ;
+
+}
+.fa-searchengin{
+  font-size: 30px;
+}
+a:hover{
+
+  color: green;
 }
