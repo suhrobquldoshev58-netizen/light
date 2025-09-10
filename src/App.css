@@ -34,7 +34,7 @@ a{
   gap: 40px;
 }
 .fa{
-  background-color: green;
+  background-color: #39DB4A;
   border-radius: 14px;
   color: white;
   padding: 13px ;
@@ -48,5 +48,33 @@ a{
 }
 a:hover{
 
-  color: green;
+  color: #39DB4A;
+}
+.section-1{
+  display: flex;
+  gap: 20px;
+  padding: 100px 50px;
+
+justify-content: space-between;
+}
+.order{
+  background-color: #39DB4A;
+ ;
+  color: white;
+  border-radius: 15px;
+  padding: 9px 19px ;
+}
+h1{
+  font-size: 42px;
+}
+.fle{
+  display: flex;
+  margin-right: 120px;
+
+}
+.dolter{
+  margin-left: 300px;
+}
+.dolter-1{
+  margin-top: 300px;
 }
