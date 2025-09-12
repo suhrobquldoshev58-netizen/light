@@ -15,66 +15,254 @@
   margin-top: 57px;
 
 
-  
+
 }
-.der{
+
+.der {
   align-items: center;
 }
-ul{
+
+ul {
   display: flex;
   gap: 60px;
 }
-a{
+
+a {
   color: black;
 
 }
 
-.mine{
+.mine {
   display: flex;
   gap: 40px;
 }
-.fa{
+
+.fa {
   background-color: #39DB4A;
   border-radius: 14px;
   color: white;
-  padding: 13px ;
+  padding: 13px;
   display: flex;
   gap: 15px;
-  padding-right:150px ;
+  padding-right: 150px;
 
 }
-.fa-searchengin{
+
+.fa-searchengin {
   font-size: 30px;
 }
-a:hover{
+
+a:hover {
 
   color: #39DB4A;
 }
-.section-1{
+
+.section-1 {
   display: flex;
   gap: 20px;
   padding: 100px 50px;
 
-justify-content: space-between;
+  justify-content: space-between;
 }
-.order{
+
+.order {
   background-color: #39DB4A;
- ;
+  ;
   color: white;
   border-radius: 15px;
-  padding: 9px 19px ;
+  padding: 9px 19px;
 }
-h1{
+
+h1 {
   font-size: 42px;
 }
-.fle{
+
+.fle {
   display: flex;
   margin-right: 120px;
 
 }
-.dolter{
+
+.dolter {
   margin-left: 300px;
 }
-.dolter-1{
+
+.dolter-1 {
   margin-top: 300px;
+}
+
+
+.Dam {
+  display: flex;
+  align-items: center;
+  width: 1320px;
+  margin-top: 100px;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.red {
+  color: red;
+  text-align: center;
+}
+
+.bonw {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+
+
+
+
+.dam {
+
+  width: 996px;
+  height: 256px;
+  padding-left: 80px;
+  padding-top: 60px;
+  opacity: 1px;
+  top: 1406px;
+  left: 155px;
+  border-radius: 40px;
+
+  border: solid 1px;
+}
+
+.redp {
+  color: red;
+  margin-left: 104px;
+}
+
+.botlw {
+  margin-left: 104px;
+  font-size: 40px;
+
+
+}
+
+.bigres {
+  display: flex;
+  gap: 40px;
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.bital {
+  padding-top: 40px;
+  padding-left: 85px;
+
+  width: 446px;
+  height: 523px;
+
+  border-radius: 40px;
+  border: solid 1px;
+
+}
+
+.salad {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 330px;
+  gap: 178px;
+}
+
+.nat {
+  color: red;
+}
+
+.grant {
+
+  color: #555555;
+}
+
+.section-3 {
+  margin-bottom: 246px;
+
+}
+
+
+
+.Explore {
+  background-color: #39DB4A;
+  color: white;
+  width: 215px;
+  height: 80px;
+
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.mu {
+  color: red;
+}
+
+.green2 {
+
+  color: #90BD95;
+}
+
+.green1 {
+  color: #5FE26C;
+
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+  /* gap: 100px; */
+}
+.vali {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+
+.section-5 {
+  display: flex;
+  margin-top: 250px;
+  margin-bottom: 114px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+
+
+.GreenFood1 {
+  margin-top: 74px;
+  width: 843px;
+  text-align: center;
+  width: 277px;
+  height: 297.1454772949219px;
+  border-radius: 30px;
+  gap: 36px;
+  border: solid 1px;
+  margin-right: 86px;
+  padding-left: 28px;
+  padding-right: 28px;
+  transition: 0.3s;
+}
+
+.GreenFood1:hover{
+  transform: scale(1.04);
+  
+}
+
+
+.fly {
+  margin-top: 45px;
+  width: 64.02066040039062px;
+  height: 64.02633666992188px;
+
+
 }
