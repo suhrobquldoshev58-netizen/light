@@ -180,7 +180,11 @@ h1 {
 
 .section-3 {
   margin-bottom: 246px;
-
+display: flex;
+gap: 194px;
+align-items: center;
+margin-right: px;
+justify-content: center;
 }
 
 
@@ -215,7 +219,7 @@ h1 {
   align-items: center;
 
   
-  /* gap: 100px; */
+  
 }
 .vali {
   display: flex;
@@ -246,7 +250,7 @@ footer {
   height: 297.1454772949219px;
   border-radius: 30px;
   gap: 36px;
-  border: solid 1px;
+  border: solid rgb(100, 215, 100) 1px;
   margin-right: 86px;
   padding-left: 28px;
   padding-right: 28px;
@@ -265,4 +269,7 @@ footer {
   height: 64.02633666992188px;
 
 
+}
+footer{
+  margin-bottom: 90px;
 }

@@ -2,9 +2,12 @@
 
 
 
+
+
+
 import './App.css'
 
-
+import second from './assets/second.png'
 
 import der from './assets/der.png'
 import sectionii from './assets/sectionii.png'
@@ -190,7 +193,7 @@ function App() {
       <section className='section-3 container'>
 
         <div>
-          <img src="" alt="" />
+          <img src={second} alt="" />
 
 
 
@@ -202,12 +205,13 @@ function App() {
           <h1>
             What Our Customers <br />
             Say About Us
+            <br />
           </h1>
           <p className='grant'>
-            “I had the pleasure of dining at Foodi last night, and
-            I'm still raving about the experience! The attention to
+            “I had the pleasure of dining at Foodi last night, and <br />
+            I'm still raving about the experience! The attention to <br />
             detail in presentation and service was impeccable”
-          </p>
+          </p> <br />
           <p><b>Customer Feedback</b></p>
 
           <div>    <img src=" " alt="" />   <p><b>4.9</b></p>  <p className='grant'>(18.6k Reviews)</p> </div>
@@ -251,32 +255,32 @@ function App() {
           <div className='GreenFood1'>
             <img className='fly' src={green1} alt="" />
             <div>
-              <h2>Catering</h2>
-              <p>Delight your guests with our flavors and  presentation</p>
+              <h2 className='green1'>Catering</h2>
+              <p className='green1'>Delight your guests with our flavors and  presentation</p>
             </div>
           </div>
 
           <div className='GreenFood1' >
             <img className='fly' src={green2} alt="" />
             <div>
-              <h2>Fast delivery</h2>
-              <p>We deliver your order promptly to your door</p>
+              <h2 className='green1' >Fast delivery</h2>
+              <p className='green1'>We deliver your order promptly to your door</p>
             </div>
           </div>
 
           <div className='GreenFood1'>
             <img className='fly' src={green3} alt="" />
             <div>
-              <h2>Online Ordering</h2>
-              <p>Explore menu & order with ease using our Online Ordering </p>
+              <h2 className='green1'>Online Ordering</h2>
+              <p className='green1'>Explore menu & order with ease using our Online Ordering </p>
             </div>
           </div>
 
           <div className='GreenFood1'>
             <img src={green4} alt="" />
             <div>
-              <h2>Gift Cards</h2>
-              <p className='grant'>Give the gift of exceptional dining with Foodi Gift Cards</p>
+              <h2 className='green1'>Gift Cards</h2>
+              <p className='grant green1'>Give the gift of exceptional dining with Foodi Gift Cards</p>
             </div>
           </div>
 
